@@ -1,0 +1,377 @@
+switch 10.2.3.17 NF55SW01-B3
+    436314112, Ethernet1/27, , NF70SW0A-B3-VDC3, , , Ethernet1/17
+    436318208, Ethernet1/28, , NF70SW0A-B3-VDC3, , , Ethernet10/17
+    436322304, Ethernet1/29, , NF70SW0B-B3-VDC3, , , Ethernet1/17
+    436326400, Ethernet1/30, , NF70SW0B-B3-VDC3, , , Ethernet10/17
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW02-B3, 10.2.3.18, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW02-B3, 10.2.3.18, 436334592, Ethernet1/32
+switch 10.2.3.18 NF55SW02-B3
+    436314112, Ethernet1/27, , NF70SW0A-B3-VDC3, , , Ethernet1/19
+    436318208, Ethernet1/28, , NF70SW0A-B3-VDC3, , , Ethernet10/19
+    436322304, Ethernet1/29, , NF70SW0B-B3-VDC3, , , Ethernet1/19
+    436326400, Ethernet1/30, , NF70SW0B-B3-VDC3, , , Ethernet10/19
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW01-B3, 10.2.3.17, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW01-B3, 10.2.3.17, 436334592, Ethernet1/32
+switch 10.2.3.19 NF50SW03-B3
+    83886080, mgmt0, , NF49SW07-M1, , , GigabitEthernet1/14
+    436338688, Ethernet1/33, , NF70SW0A-B3-VDC3, , , Ethernet2/3
+    436342784, Ethernet1/34, , NF70SW0B-B3-VDC3, , , Ethernet2/3
+    436346880, Ethernet1/35, Ethernet1/35, NF50SW04-B3, 10.2.3.20, 436346880, Ethernet1/35
+    436350976, Ethernet1/36, Ethernet1/36, NF50SW04-B3, 10.2.3.20, 436350976, Ethernet1/36
+switch 10.2.3.20 NF50SW04-B3
+    83886080, mgmt0, , NF49SW07-M1, , , GigabitEthernet1/15
+    436338688, Ethernet1/33, , NF70SW0A-B3-VDC3, , , Ethernet2/4
+    436342784, Ethernet1/34, , NF70SW0B-B3-VDC3, , , Ethernet2/4
+    436346880, Ethernet1/35, Ethernet1/35, NF50SW03-B3, 10.2.3.19, 436346880, Ethernet1/35
+    436350976, Ethernet1/36, Ethernet1/36, NF50SW03-B3, 10.2.3.19, 436350976, Ethernet1/36
+switch 10.2.3.21 NF56SW05-B3
+    83886080, mgmt0, , NF49SW16-M1, , , GigabitEthernet1/29
+    436314112, Ethernet1/27, , NF70SW0A-B3-VDC3, , , Ethernet1/21
+    436318208, Ethernet1/28, , NF70SW0A-B3-VDC3, , , Ethernet10/21
+    436322304, Ethernet1/29, , NF70SW0B-B3-VDC3, , , Ethernet1/21
+    436326400, Ethernet1/30, , NF70SW0B-B3-VDC3, , , Ethernet10/21
+    436330496, Ethernet1/31, Ethernet1/31, NF56SW06-B3, 10.2.3.22, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF56SW06-B3, 10.2.3.22, 436334592, Ethernet1/32
+switch 10.2.3.22 NF56SW06-B3
+    83886080, mgmt0, , NF49SW16-M1, , , GigabitEthernet1/30
+    436314112, Ethernet1/27, , NF70SW0A-B3-VDC3, , , Ethernet1/23
+    436318208, Ethernet1/28, , NF70SW0A-B3-VDC3, , , Ethernet10/23
+    436322304, Ethernet1/29, , NF70SW0B-B3-VDC3, , , Ethernet1/23
+    436326400, Ethernet1/30, , NF70SW0B-B3-VDC3, , , Ethernet10/23
+    436330496, Ethernet1/31, Ethernet1/31, NF56SW05-B3, 10.2.3.21, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF56SW05-B3, 10.2.3.21, 436334592, Ethernet1/32
+switch 10.2.3.23 NF56SW07-B3
+    436314112, Ethernet1/27, , NF70SW0A-B3-VDC3, , , Ethernet9/20
+    436318208, Ethernet1/28, , NF70SW0A-B3-VDC3, , , Ethernet9/24
+    436322304, Ethernet1/29, , NF70SW0B-B3-VDC3, , , Ethernet9/20
+    436326400, Ethernet1/30, , NF70SW0B-B3-VDC3, , , Ethernet9/24
+    436330496, Ethernet1/31, Ethernet1/31, NF56SW08-B3, 10.2.3.24, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF56SW08-B3, 10.2.3.24, 436334592, Ethernet1/32
+switch 10.2.3.24 NF56SW08-B3
+    436314112, Ethernet1/27, , NF70SW0A-B3-VDC3, , , Ethernet9/25
+    436318208, Ethernet1/28, , NF70SW0A-B3-VDC3, , , Ethernet9/29
+    436322304, Ethernet1/29, , NF70SW0B-B3-VDC3, , , Ethernet9/25
+    436326400, Ethernet1/30, , NF70SW0B-B3-VDC3, , , Ethernet9/29
+    436330496, Ethernet1/31, Ethernet1/31, NF56SW07-B3, 10.2.3.23, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF56SW07-B3, 10.2.3.23, 436334592, Ethernet1/32
+switch 10.2.3.33 NF65SW01-B3
+    1, TenGigabitEthernet1/1, , NF70SW0A-B3-VDC3, , , Ethernet2/1
+    5, TenGigabitEthernet2/1, , NF70SW0B-B3-VDC3, , , Ethernet2/1
+    58, GigabitEthernet5/2, , NF49SW08-M1, , , GigabitEthernet1/13
+switch 10.2.3.34 NF65SW02-B3
+    1, TenGigabitEthernet1/1, , NF70SW0A-B3-VDC3, , , Ethernet2/2
+    5, TenGigabitEthernet2/1, , NF70SW0B-B3-VDC3, , , Ethernet2/2
+    58, GigabitEthernet5/2, , NF49SW08-M1, , , GigabitEthernet1/14
+switch 10.3.3.33 JD49SW01-B3
+    50, GigabitEthernet1/48, , JD49SW07-M1, , , GigabitEthernet1/7
+    51, TenGigabitEthernet1/49, , JD70SW0A-B3-VDC3, , , Ethernet1/17
+    52, TenGigabitEthernet1/50, , JD70SW0B-B3-VDC3, , , Ethernet1/17
+switch 10.3.3.34 JD49SW02-B3
+    50, GigabitEthernet1/48, , JD49SW07-M1, , , GigabitEthernet1/8
+    51, TenGigabitEthernet1/49, , JD70SW0A-B3-VDC3, , , Ethernet10/17
+    52, TenGigabitEthernet1/50, , JD70SW0B-B3-VDC3, , , Ethernet10/17
+switch 10.3.3.35 JD49SW03-B3
+    50, GigabitEthernet1/48, , JD49SW09-M1, , , GigabitEthernet1/19
+    51, TenGigabitEthernet1/49, , JD70SW0A-B3-VDC3, , , Ethernet1/18
+    52, TenGigabitEthernet1/50, , JD70SW0B-B3-VDC3, , , Ethernet1/18
+switch 10.3.3.36 JD49SW04-B3
+    50, GigabitEthernet1/48, , JD49SW09-M1, , , GigabitEthernet1/20
+    51, TenGigabitEthernet1/49, , JD70SW0A-B3-VDC3, , , Ethernet10/18
+    52, TenGigabitEthernet1/50, , JD70SW0B-B3-VDC3, , , Ethernet10/18
+switch 10.3.3.37 JD56SW03-B3
+    83886080, mgmt0, , JD36SW04-M1, , , GigabitEthernet1/0/19
+    436379648, Ethernet1/43, Ethernet1/43, JD56SW04-B3, 10.3.3.38, 436379648, Ethernet1/43
+    436383744, Ethernet1/44, Ethernet1/44, JD56SW04-B3, 10.3.3.38, 436383744, Ethernet1/44
+    436387840, Ethernet1/45, , JD70SW0A-B3-VDC3, , , Ethernet1/27
+    436391936, Ethernet1/46, , JD70SW0A-B3-VDC3, , , Ethernet10/27
+    436396032, Ethernet1/47, , JD70SW0B-B3-VDC3, , , Ethernet1/27
+    436400128, Ethernet1/48, , JD70SW0B-B3-VDC3, , , Ethernet10/27
+switch 10.3.3.38 JD56SW04-B3
+    83886080, mgmt0, , JD36SW04-M1, , , GigabitEthernet1/0/20
+    436379648, Ethernet1/43, Ethernet1/43, JD56SW03-B3, 10.3.3.37, 436379648, Ethernet1/43
+    436383744, Ethernet1/44, Ethernet1/44, JD56SW03-B3, 10.3.3.37, 436383744, Ethernet1/44
+    436387840, Ethernet1/45, , JD70SW0A-B3-VDC3, , , Ethernet1/28
+    436391936, Ethernet1/46, , JD70SW0A-B3-VDC3, , , Ethernet10/28
+    436396032, Ethernet1/47, , JD70SW0B-B3-VDC3, , , Ethernet1/28
+    436400128, Ethernet1/48, , JD70SW0B-B3-VDC3, , , Ethernet10/28
+switch 76.97.131.1 JD70SW01-C0
+    83886080, mgmt0, , JD49SW02-M1, , , GigabitEthernet1/29
+    436207616, Ethernet1/1, , JD70SW0A-H3, , , Ethernet1/5
+    436211712, Ethernet1/2, , JD70SW0A-B1-VDC2, , , Ethernet1/1
+    436215808, Ethernet1/3, , JD70SW0A-B5-VDC2, , , Ethernet1/1
+    436219904, Ethernet1/4, , JD70SW0A-M2-VDC2, , , Ethernet1/1
+    436224000, Ethernet1/5, , JD12WA01-A0, , , TenGigE0/0/0/0
+    436228096, Ethernet1/6, , JD70SW0A-E1-VDC2, , , Ethernet1/1
+    436232192, Ethernet1/7, , JD70SW0A-F0-VDC2, , , Ethernet1/1
+    436731904, Ethernet2/1, , JD70SW0A-B3-VDC2, , , Ethernet1/1
+    436736000, Ethernet2/2, , JD70SW0A-I1-VDC2, , , Ethernet1/1
+    436740096, Ethernet2/3, , JD70SW0A-T0-VDC2, , , Ethernet1/1
+    436744192, Ethernet2/4, , JD49SW0A-CC, , , TenGigabitEthernet1/49
+    436760576, Ethernet2/8, , JD49SW0A-CA, , , TenGigabitEthernet1/49
+    440401920, Ethernet9/1, , JD70SW0B-B3-VDC2, , , Ethernet1/1
+    440406016, Ethernet9/2, , JD70SW0B-I1-VDC2, , , Ethernet1/1
+    440410112, Ethernet9/3, , JD70SW0B-T0-VDC2, , , Ethernet1/1
+    440414208, Ethernet9/4, , JD49SW0B-CC, , , TenGigabitEthernet1/49
+    440430592, Ethernet9/8, , JD49SW0B-CA, , , TenGigabitEthernet1/49
+    440926208, Ethernet10/1, , JD70SW0B-H3, , , Ethernet1/5
+    440930304, Ethernet10/2, , JD70SW0B-B1-VDC2, , , Ethernet1/1
+    440934400, Ethernet10/3, , JD70SW0B-B5-VDC2, , , Ethernet1/1
+    440938496, Ethernet10/4, , JD70SW0B-M2-VDC2, , , Ethernet1/1
+    440942592, Ethernet10/5, , JD12WA02-A0, , , TenGigE0/0/0/0
+    440946688, Ethernet10/6, , JD70SW0B-E1-VDC2, , , Ethernet1/1
+    440950784, Ethernet10/7, , JD70SW0B-F0-VDC2, , , Ethernet1/1
+switch 76.97.131.2 JD70SW02-C0
+    83886080, mgmt0, , JD49SW02-M1, , , GigabitEthernet1/31
+    436207616, Ethernet1/1, , JD70SW0A-H3, , , Ethernet10/5
+    436211712, Ethernet1/2, , JD70SW0A-B1-VDC2, , , Ethernet10/1
+    436215808, Ethernet1/3, , JD70SW0A-B5-VDC2, , , Ethernet10/1
+    436219904, Ethernet1/4, , JD70SW0A-M2-VDC2, , , Ethernet10/1
+    436224000, Ethernet1/5, , JD12WA01-A0, , , TenGigE0/2/0/0
+    436228096, Ethernet1/6, , JD70SW0A-E1-VDC2, , , Ethernet10/1
+    436232192, Ethernet1/7, , JD70SW0A-F0-VDC2, , , Ethernet10/1
+    436731904, Ethernet2/1, , JD70SW0A-B3-VDC2, , , Ethernet1/2
+    436736000, Ethernet2/2, , JD70SW0A-I1-VDC2, , , Ethernet1/2
+    436740096, Ethernet2/3, , JD70SW0A-T0-VDC2, , , Ethernet1/2
+    436744192, Ethernet2/4, , JD49SW0A-CC, , , TenGigabitEthernet1/50
+    436760576, Ethernet2/8, , JD49SW0A-CA, , , TenGigabitEthernet1/50
+    440401920, Ethernet9/1, , JD70SW0B-B3-VDC2, , , Ethernet1/2
+    440406016, Ethernet9/2, , JD70SW0B-I1-VDC2, , , Ethernet1/2
+    440410112, Ethernet9/3, , JD70SW0B-T0-VDC2, , , Ethernet1/2
+    440414208, Ethernet9/4, , JD49SW0B-CC, , , TenGigabitEthernet1/50
+    440430592, Ethernet9/8, , JD49SW0B-CA, , , TenGigabitEthernet1/50
+    440926208, Ethernet10/1, , JD70SW0B-H3, , , Ethernet10/5
+    440930304, Ethernet10/2, , JD70SW0B-B1-VDC2, , , Ethernet10/1
+    440934400, Ethernet10/3, , JD70SW0B-B5-VDC2, , , Ethernet10/1
+    440938496, Ethernet10/4, , JD70SW0B-M2-VDC2, , , Ethernet10/1
+    440942592, Ethernet10/5, , JD12WA02-A0, , , TenGigE0/2/0/0
+    440946688, Ethernet10/6, , JD70SW0B-E1-VDC2, , , Ethernet10/1
+    440950784, Ethernet10/7, , JD70SW0B-F0-VDC2, , , Ethernet10/1
+switch 76.97.131.3 JD70SW03-C0
+    83886080, mgmt0, , JD49SW02-M1, , , GigabitEthernet1/35
+    436731904, Ethernet2/1, , JD70SW0A-H3, , , Ethernet1/6
+    436736000, Ethernet2/2, , JD70SW0A-B1-VDC2, , , Ethernet1/2
+    436740096, Ethernet2/3, , JD70SW0A-B5-VDC2, , , Ethernet1/2
+    436744192, Ethernet2/4, , JD70SW0A-M2-VDC2, , , Ethernet1/2
+    436748288, Ethernet2/5, , JD12WA01-A0, , , TenGigE0/11/0/0
+    436752384, Ethernet2/6, , JD70SW0A-E1-VDC2, , , Ethernet1/2
+    436756480, Ethernet2/7, , JD70SW0A-F0-VDC2, , , Ethernet1/2
+    437256192, Ethernet3/1, , JD70SW0A-B3-VDC2, , , Ethernet10/1
+    437260288, Ethernet3/2, , JD70SW0A-I1-VDC2, , , Ethernet10/1
+    437264384, Ethernet3/3, , JD70SW0A-T0-VDC2, , , Ethernet10/1
+    437268480, Ethernet3/4, , JD49SW0A-CC, , , TenGigabitEthernet1/51
+    437284864, Ethernet3/8, , JD49SW0A-CA, , , TenGigabitEthernet1/51
+    444071936, Ethernet16/1, , JD70SW0B-B3-VDC2, , , Ethernet10/1
+    444076032, Ethernet16/2, , JD70SW0B-I1-VDC2, , , Ethernet10/1
+    444080128, Ethernet16/3, , JD70SW0B-T0-VDC2, , , Ethernet10/1
+    444084224, Ethernet16/4, , JD49SW0B-CC, , , TenGigabitEthernet1/51
+    444100608, Ethernet16/8, , JD49SW0B-CA, , , TenGigabitEthernet1/51
+    444596224, Ethernet17/1, , JD70SW0B-H3, , , Ethernet1/6
+    444600320, Ethernet17/2, , JD70SW0B-B1-VDC2, , , Ethernet1/2
+    444604416, Ethernet17/3, , JD70SW0B-B5-VDC2, , , Ethernet1/2
+    444608512, Ethernet17/4, , JD70SW0B-M2-VDC2, , , Ethernet1/2
+    444612608, Ethernet17/5, , JD12WA02-A0, , , TenGigE0/11/0/0
+    444616704, Ethernet17/6, , JD70SW0B-E1-VDC2, , , Ethernet1/2
+    444620800, Ethernet17/7, , JD70SW0B-F0-VDC2, , , Ethernet1/2
+switch 76.97.131.4 JD70SW04-C0
+    83886080, mgmt0, , JD49SW02-M1, , , GigabitEthernet1/33
+    436731904, Ethernet2/1, , JD70SW0A-H3, , , Ethernet10/6
+    436736000, Ethernet2/2, , JD70SW0A-B1-VDC2, , , Ethernet10/2
+    436740096, Ethernet2/3, , JD70SW0A-B5-VDC2, , , Ethernet10/2
+    436744192, Ethernet2/4, , JD70SW0A-M2-VDC2, , , Ethernet10/2
+    436748288, Ethernet2/5, , JD12WA01-A0, , , TenGigE0/13/0/0
+    436752384, Ethernet2/6, , JD70SW0A-E1-VDC2, , , Ethernet10/2
+    436756480, Ethernet2/7, , JD70SW0A-F0-VDC2, , , Ethernet10/2
+    437256192, Ethernet3/1, , JD70SW0A-B3-VDC2, , , Ethernet10/2
+    437260288, Ethernet3/2, , JD70SW0A-I1-VDC2, , , Ethernet10/2
+    437264384, Ethernet3/3, , JD70SW0A-T0-VDC2, , , Ethernet10/2
+    437268480, Ethernet3/4, , JD49SW0A-CC, , , TenGigabitEthernet1/52
+    437284864, Ethernet3/8, , JD49SW0A-CA, , , TenGigabitEthernet1/52
+    444071936, Ethernet16/1, , JD70SW0B-B3-VDC2, , , Ethernet10/2
+    444076032, Ethernet16/2, , JD70SW0B-I1-VDC2, , , Ethernet10/2
+    444080128, Ethernet16/3, , JD70SW0B-T0-VDC2, , , Ethernet10/2
+    444084224, Ethernet16/4, , JD49SW0B-CC, , , TenGigabitEthernet1/52
+    444100608, Ethernet16/8, , JD49SW0B-CA, , , TenGigabitEthernet1/52
+    444596224, Ethernet17/1, , JD70SW0B-H3, , , Ethernet10/6
+    444600320, Ethernet17/2, , JD70SW0B-B1-VDC2, , , Ethernet10/2
+    444604416, Ethernet17/3, , JD70SW0B-B5-VDC2, , , Ethernet10/2
+    444608512, Ethernet17/4, , JD70SW0B-M2-VDC2, , , Ethernet10/2
+    444612608, Ethernet17/5, , JD12WA02-A0, , , TenGigE0/13/0/0
+    444616704, Ethernet17/6, , JD70SW0B-E1-VDC2, , , Ethernet10/2
+    444620800, Ethernet17/7, , JD70SW0B-F0-VDC2, , , Ethernet10/2
+switch 76.97.131.81 JD49SW01-C0
+    48, GigabitEthernet1/48, , JD49SW02-M1, , , GigabitEthernet1/21
+    49, TenGigabitEthernet1/49, TenGigE0/0/0/0, JD70SW01-C0, 76.97.131.1, 436224000, Ethernet1/5
+    50, TenGigabitEthernet1/50, , JD12WA02-A0, , , TenGigE0/2/0/0
+    51, TenGigabitEthernet1/51, , JD12WA01-A0, , , TenGigE0/11/0/0
+    52, TenGigabitEthernet1/52, , JD12WA01-A0, , , TenGigE0/13/0/0
+switch 84.89.3.11 NF31BL01-F3
+    10201, TenGigabitEthernet1/0/1, TenGigabitEthernet1/0/1, NF55SW01-F3, 84.97.195.17, 436207616, Ethernet1/1
+    10202, TenGigabitEthernet1/0/2, TenGigabitEthernet1/0/2, NF55SW02-F3, 84.97.195.18, 436207616, Ethernet1/1
+switch 84.89.3.12 NF31BL02-F3
+    10201, TenGigabitEthernet1/0/1, TenGigabitEthernet1/0/1, NF55SW01-F3, 84.97.195.17, 436211712, Ethernet1/2
+    10202, TenGigabitEthernet1/0/2, TenGigabitEthernet1/0/2, NF55SW02-F3, 84.97.195.18, 436211712, Ethernet1/2
+switch 84.89.3.13 NF31BL03-F3
+    10201, TenGigabitEthernet1/0/1, TenGigabitEthernet1/0/1, NF55SW01-F3, 84.97.195.17, 436215808, Ethernet1/3
+    10202, TenGigabitEthernet1/0/2, TenGigabitEthernet1/0/2, NF55SW02-F3, 84.97.195.18, 436215808, Ethernet1/3
+switch 84.89.3.14 NF31BL04-F3
+    10201, TenGigabitEthernet1/0/1, TenGigabitEthernet1/0/1, NF55SW01-F3, 84.97.195.17, 436219904, Ethernet1/4
+    10202, TenGigabitEthernet1/0/2, TenGigabitEthernet1/0/2, NF55SW02-F3, 84.97.195.18, 436219904, Ethernet1/4
+switch 84.89.3.15 NF31BL05-F3
+    10201, TenGigabitEthernet1/0/1, TenGigabitEthernet1/0/1, NF55SW01-F3, 84.97.195.17, 436224000, Ethernet1/5
+    10202, TenGigabitEthernet1/0/2, TenGigabitEthernet1/0/2, NF55SW02-F3, 84.97.195.18, 436224000, Ethernet1/5
+switch 84.89.3.16 NF31BL06-F3
+    10201, TenGigabitEthernet1/0/1, TenGigabitEthernet1/0/1, NF55SW01-F3, 84.97.195.17, 436228096, Ethernet1/6
+    10202, TenGigabitEthernet1/0/2, TenGigabitEthernet1/0/2, NF55SW02-F3, 84.97.195.18, 436228096, Ethernet1/6
+switch 84.97.179.17 NF55SW01-F2
+    436224000, Ethernet1/5, , NF31BL05-F2, 84.86.3.15, , TenGigabitEthernet1/0/1
+    436228096, Ethernet1/6, , NF31BL06-F2, 84.86.3.16, , TenGigabitEthernet1/0/1
+    436322304, Ethernet1/29, , NF70SW0A-F3-VDC4, , , Ethernet9/1
+    436326400, Ethernet1/30, , NF70SW0B-F3-VDC4, , , Ethernet9/1
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW02-F2, 84.97.179.18, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW02-F2, 84.97.179.18, 436334592, Ethernet1/32
+switch 84.97.179.18 NF55SW02-F2
+    436224000, Ethernet1/5, , NF31BL05-F2, 84.86.3.15, , TenGigabitEthernet1/0/2
+    436228096, Ethernet1/6, , NF31BL06-F2, 84.86.3.16, , TenGigabitEthernet1/0/2
+    436322304, Ethernet1/29, , NF70SW0A-F3-VDC4, , , Ethernet9/2
+    436326400, Ethernet1/30, , NF70SW0B-F3-VDC4, , , Ethernet9/2
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW01-F2, 84.97.179.17, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW01-F2, 84.97.179.17, 436334592, Ethernet1/32
+switch 84.97.179.19 NF49SW01-F2
+    45, GigabitEthernet1/44, , NF49SW08-M1, , , GigabitEthernet1/23
+    46, GigabitEthernet1/45, , NF70SW0A-F3-VDC4, , , Ethernet3/21
+    47, GigabitEthernet1/46, , NF70SW0A-F3-VDC4, , , Ethernet10/22
+    48, GigabitEthernet1/47, , NF70SW0B-F3-VDC4, , , Ethernet3/21
+    49, GigabitEthernet1/48, , NF70SW0B-F3-VDC4, , , Ethernet10/22
+switch 84.97.179.20 NF49SW02-F2
+    45, GigabitEthernet1/44, , NF49SW08-M1, , , GigabitEthernet1/24
+    46, GigabitEthernet1/45, , NF70SW0B-F3-VDC4, , , Ethernet3/22
+    47, GigabitEthernet1/46, , NF70SW0A-F3-VDC4, , , Ethernet10/23
+    48, GigabitEthernet1/47, , NF70SW0A-F3-VDC4, , , Ethernet3/22
+    49, GigabitEthernet1/48, , NF70SW0B-F3-VDC4, , , Ethernet10/23
+switch 84.97.179.21 NF55SW03-F2
+    436322304, Ethernet1/29, , NF70SW0A-F3-VDC4, , , Ethernet8/7
+    436326400, Ethernet1/30, , NF70SW0B-F3-VDC4, , , Ethernet8/7
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW04-F2, 84.97.179.22, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW04-F2, 84.97.179.22, 436334592, Ethernet1/32
+switch 84.97.179.22 NF55SW04-F2
+    436322304, Ethernet1/29, , NF70SW0A-F3-VDC4, , , Ethernet9/6
+    436326400, Ethernet1/30, , NF70SW0B-F3-VDC4, , , Ethernet9/6
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW03-F2, 84.97.179.21, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW03-F2, 84.97.179.21, 436334592, Ethernet1/32
+switch 84.97.179.23 NF49SW03-F2
+    49, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC4, , , Ethernet9/3
+    50, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC4, , , Ethernet9/3
+switch 84.97.179.24 NF49SW04-F2
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC4, , , Ethernet9/4
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC4, , , Ethernet9/4
+switch 84.97.179.25 NF49SW05-F2
+    50, GigabitEthernet1/48, , NF49SW16-M1, , , GigabitEthernet1/25
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC4, , , Ethernet9/7
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC4, , , Ethernet9/7
+switch 84.97.179.26 NF49SW06-F2
+    50, GigabitEthernet1/48, , NF49SW16-M1, , , GigabitEthernet1/26
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC4, , , Ethernet9/8
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC4, , , Ethernet9/8
+switch 84.97.195.17 NF55SW01-F3
+    436207616, Ethernet1/1, Ethernet1/1, NF31BL01-F3, 84.89.3.11, 10201, TenGigabitEthernet1/0/1
+    436211712, Ethernet1/2, Ethernet1/2, NF31BL02-F3, 84.89.3.12, 10201, TenGigabitEthernet1/0/1
+    436215808, Ethernet1/3, Ethernet1/3, NF31BL03-F3, 84.89.3.13, 10201, TenGigabitEthernet1/0/1
+    436219904, Ethernet1/4, Ethernet1/4, NF31BL04-F3, 84.89.3.14, 10201, TenGigabitEthernet1/0/1
+    436224000, Ethernet1/5, Ethernet1/5, NF31BL05-F3, 84.89.3.15, 10201, TenGigabitEthernet1/0/1
+    436228096, Ethernet1/6, Ethernet1/6, NF31BL06-F3, 84.89.3.16, 10201, TenGigabitEthernet1/0/1
+    436322304, Ethernet1/29, , NF70SW0A-F3-VDC3, , , Ethernet2/1
+    436326400, Ethernet1/30, , NF70SW0B-F3-VDC3, , , Ethernet2/1
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW02-F3, 84.97.195.18, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW02-F3, 84.97.195.18, 436334592, Ethernet1/32
+switch 84.97.195.18 NF55SW02-F3
+    436207616, Ethernet1/1, Ethernet1/1, NF31BL01-F3, 84.89.3.11, 10202, TenGigabitEthernet1/0/2
+    436211712, Ethernet1/2, Ethernet1/2, NF31BL02-F3, 84.89.3.12, 10202, TenGigabitEthernet1/0/2
+    436215808, Ethernet1/3, Ethernet1/3, NF31BL03-F3, 84.89.3.13, 10202, TenGigabitEthernet1/0/2
+    436219904, Ethernet1/4, Ethernet1/4, NF31BL04-F3, 84.89.3.14, 10202, TenGigabitEthernet1/0/2
+    436224000, Ethernet1/5, Ethernet1/5, NF31BL05-F3, 84.89.3.15, 10202, TenGigabitEthernet1/0/2
+    436228096, Ethernet1/6, Ethernet1/6, NF31BL06-F3, 84.89.3.16, 10202, TenGigabitEthernet1/0/2
+    436322304, Ethernet1/29, , NF70SW0A-F3-VDC3, , , Ethernet2/2
+    436326400, Ethernet1/30, , NF70SW0B-F3-VDC3, , , Ethernet2/2
+    436330496, Ethernet1/31, Ethernet1/31, NF55SW01-F3, 84.97.195.17, 436330496, Ethernet1/31
+    436334592, Ethernet1/32, Ethernet1/32, NF55SW01-F3, 84.97.195.17, 436334592, Ethernet1/32
+switch 84.97.195.19 NF49SW01-F3
+    50, GigabitEthernet1/48, , NF49SW08-M1, , , GigabitEthernet1/21
+    53, TenGigabitEthernet1/51, , NF70SW0A-F3-VDC3, , , Ethernet1/8
+    54, TenGigabitEthernet1/52, , NF70SW0B-F3-VDC3, , , Ethernet1/8
+switch 84.97.195.20 NF49SW02-F3
+    50, GigabitEthernet1/48, , NF49SW08-M1, , , GigabitEthernet1/22
+    53, TenGigabitEthernet1/51, , NF70SW0A-F3-VDC3, , , Ethernet2/8
+    54, TenGigabitEthernet1/52, , NF70SW0B-F3-VDC3, , , Ethernet2/8
+switch 84.97.195.21 NF49SW03-F3
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC3, , , Ethernet2/3
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC3, , , Ethernet2/3
+switch 84.97.195.22 NF49SW04-F3
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC3, , , Ethernet2/4
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC3, , , Ethernet2/4
+switch 84.97.195.23 NF49SW05-F3
+    50, GigabitEthernet1/48, , NF49SW16-M1, , , GigabitEthernet1/31
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC3, , , Ethernet2/6
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC3, , , Ethernet2/6
+switch 84.97.195.24 NF49SW06-F3
+    50, GigabitEthernet1/48, , NF49SW16-M1, , , GigabitEthernet1/32
+    51, TenGigabitEthernet1/49, , NF70SW0A-F3-VDC3, , , Ethernet2/7
+    52, TenGigabitEthernet1/50, , NF70SW0B-F3-VDC3, , , Ethernet2/7
+switch 84.98.3.2 NF70SW02-C0
+switch 84.98.3.3 NF70SW03-C0
+    436731904, Ethernet2/1, , NF65SW0A-H2, , , TenGigabitEthernet4/4
+    436736000, Ethernet2/2, , NF70SW0A-B1-VDC2, , , Ethernet1/5
+    436764672, Ethernet2/9, , NF70SW0A-B2-VDC2, , , Ethernet1/5
+    436768768, Ethernet2/10, , NF70SW0A-B5-VDC2, , , Ethernet1/5
+    436797440, Ethernet2/17, , NF70SW0A-I1-VDC2, , , Ethernet1/2
+    436801536, Ethernet2/18, , NF12WA01-A0, , , TenGigE0/11/0/0
+    436805632, Ethernet2/19, , NF70SW0A-F0-VDC1, , , Ethernet1/2
+    436813824, Ethernet2/21, , NF70SW0A-E1-VDC2, , , Ethernet1/5
+    436822016, Ethernet2/23, , NF70SW0A-F3-VDC2, , , Ethernet1/2
+    436830208, Ethernet2/25, , NF70SW0A-M2-VDC2, , , Ethernet1/5
+    436838400, Ethernet2/27, , NF49SW0A-CA, , , TenGigabitEthernet1/51
+    436842496, Ethernet2/28, , NF70SW0A-T0-VDC2, , , Ethernet10/1
+    436846592, Ethernet2/29, , NF70SW0A-B3-VDC2, , , Ethernet1/5
+    438304768, Ethernet5/1, , NF70SW0A-B6-VDC2, , , Ethernet1/2
+    438308864, Ethernet5/2, , NF70SW0B-B6-VDC2, , , Ethernet1/2
+    444596224, Ethernet17/1, , NF65SW0B-H2, , , TenGigabitEthernet1/8
+    444600320, Ethernet17/2, , NF70SW0B-B1-VDC2, , , Ethernet1/5
+    444628992, Ethernet17/9, , NF70SW0B-B2-VDC2, , , Ethernet1/5
+    444633088, Ethernet17/10, , NF70SW0B-B5-VDC2, , , Ethernet1/5
+    444661760, Ethernet17/17, , NF70SW0B-I1-VDC2, , , Ethernet1/2
+    444665856, Ethernet17/18, , NF12WA02-A0, , , TenGigE0/11/0/0
+    444669952, Ethernet17/19, , NF70SW0B-F0-VDC1, , , Ethernet1/2
+    444678144, Ethernet17/21, , NF70SW0B-E1-VDC2, , , Ethernet1/5
+    444686336, Ethernet17/23, , NF70SW0B-F3-VDC2, , , Ethernet1/2
+    444694528, Ethernet17/25, , NF70SW0B-M2-VDC2, , , Ethernet1/5
+    444702720, Ethernet17/27, , NF49SW0B-CA, , , TenGigabitEthernet1/51
+    444710912, Ethernet17/29, , NF70SW0B-B3-VDC2, , , Ethernet1/5
+    444719104, Ethernet17/31, , NF70SW0B-T0-VDC2, , , Ethernet10/1
+switch 84.98.3.4 NF70SW04-C0
+    436731904, Ethernet2/1, , NF65SW0A-H2, , , TenGigabitEthernet3/8
+    436736000, Ethernet2/2, , NF70SW0A-B1-VDC2, , , Ethernet10/5
+    436764672, Ethernet2/9, , NF70SW0A-B2-VDC2, , , Ethernet10/5
+    436768768, Ethernet2/10, , NF70SW0A-B5-VDC2, , , Ethernet10/5
+    436797440, Ethernet2/17, , NF70SW0A-I1-VDC2, , , Ethernet10/2
+    436801536, Ethernet2/18, , NF12WA01-A0, , , TenGigE0/13/0/0
+    436805632, Ethernet2/19, , NF70SW0A-F0-VDC1, , , Ethernet10/2
+    436813824, Ethernet2/21, , NF70SW0A-E1-VDC2, , , Ethernet10/5
+    436822016, Ethernet2/23, , NF70SW0A-F3-VDC2, , , Ethernet8/2
+    436830208, Ethernet2/25, , NF70SW0A-M2-VDC2, , , Ethernet10/15
+    436838400, Ethernet2/27, , NF49SW0A-CA, , , TenGigabitEthernet1/52
+    436842496, Ethernet2/28, , NF70SW0A-T0-VDC2, , , Ethernet10/2
+    436846592, Ethernet2/29, , NF70SW0A-B3-VDC2, , , Ethernet10/5
+    438304768, Ethernet5/1, , NF70SW0A-B6-VDC2, , , Ethernet10/2
+    438308864, Ethernet5/2, , NF70SW0B-B6-VDC2, , , Ethernet10/2
+    444596224, Ethernet17/1, , NF65SW0B-H2, , , TenGigabitEthernet3/8
+    444600320, Ethernet17/2, , NF70SW0B-B1-VDC2, , , Ethernet10/5
+    444628992, Ethernet17/9, , NF70SW0B-B2-VDC2, , , Ethernet10/5
+    444633088, Ethernet17/10, , NF70SW0B-B5-VDC2, , , Ethernet10/5
+    444661760, Ethernet17/17, , NF70SW0B-I1-VDC2, , , Ethernet10/2
+    444669952, Ethernet17/19, , NF70SW0B-F0-VDC1, , , Ethernet10/2
+    444678144, Ethernet17/21, , NF70SW0B-E1-VDC2, , , Ethernet10/5
+    444686336, Ethernet17/23, , NF70SW0B-F3-VDC2, , , Ethernet8/2
+    444694528, Ethernet17/25, , NF70SW0B-M2-VDC2, , , Ethernet10/5
+    444698624, Ethernet17/26, , NF12WA02-A0, , , TenGigE0/13/0/0
+    444702720, Ethernet17/27, , NF49SW0B-CA, , , TenGigabitEthernet1/52
+    444710912, Ethernet17/29, , NF70SW0B-B3-VDC2, , , Ethernet10/5
+    444719104, Ethernet17/31, , NF70SW0B-T0-VDC2, , , Ethernet10/2

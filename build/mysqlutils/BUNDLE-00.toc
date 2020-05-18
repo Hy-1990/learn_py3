@@ -1,0 +1,3 @@
+([('mysqlutils',
+   '/Users/huyi/PycharmProjects/utils/dist/mysqlutils',
+   'EXECUTABLE')],)

@@ -1,0 +1,9 @@
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  192.168.0.88            1   34e6.d72f.abaf  ARPA   Vlan1
+Internet  192.168.0.33            0   6400.6a22.4fec  ARPA   Vlan1
+Internet  192.168.0.56            -   0026.5246.dbc0  ARPA   Vlan1
+Internet  192.168.1.53            7   0023.aeee.64d1  ARPA   Vlan1
+Internet  192.168.1.15           28   00e0.81de.7972  ARPA   Vlan1
+Internet  192.168.41.43         128   000c.2912.05a8  ARPA   Vlan1
+Internet  192.168.1.24            0   f48e.3889.4f1a  ARPA   Vlan1
+Internet  192.168.0.31           74   f48e.388d.3269  ARPA   Vlan1
