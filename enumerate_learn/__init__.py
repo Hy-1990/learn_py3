@@ -6,6 +6,7 @@
 # @Date   ：2020/5/18 16:15
 # @Desc   ：
 # ==================================================
+# enumerate的使用，可以将列表按照编号开始枚举
 def use_enum():
     my_list = ['apple', 'banana', 'grapes', 'pear']
     for c, value in enumerate(my_list, 1):

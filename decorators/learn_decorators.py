@@ -8,7 +8,7 @@
 # ==================================================
 from functools import wraps
 
-
+# 生成装饰器  @wraps的使用
 def logit(func):
     @wraps(func)
     def with_logging(*args, **kwargs):
